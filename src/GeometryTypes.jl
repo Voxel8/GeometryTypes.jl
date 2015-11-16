@@ -40,6 +40,7 @@ include("distancefields.jl")
 include("setops.jl")
 include("display.jl")
 include("slice.jl")
+include("polytopes.jl")
 include("decompose.jl")
 include("deprecated.jl")
 
@@ -81,6 +82,9 @@ export AABB,
        Particle,
        PlainMesh,
        Point,
+       Polygon,
+       Polytope,
+       Polyhedron,
        Pyramid,
        Quad,
        Rectangle,
